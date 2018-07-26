@@ -1,0 +1,23 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+input{
+    margin: 0;
+    outline: none;
+    background: #fff;
+    border-radius: 0;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>云递鸟快递管理系统</title>
+    <link rel="shortcut icon" type="image/x-icon" href="static/favicon.ico">
+    <style>
+      html{
+        height: 100%;
+      }
+      body{
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      (function(doc,win){
+        let docEle = doc.documentElement;
+        let resizeEvent = 'orientationchange' in win ? 'orientationchange' : 'resize';
+        let eventHandle = function(){
+          var clientWidth = docEle.clientWidth;
+          if (!clientWidth) return;
+          docEle.style.fontSize = 100 * (clientWidth / 1920) + 'px';
+        }
+        if (!doc.addEventListener) return;
+        win.addEventListener(resizeEvent, eventHandle, false);
+        doc.addEventListener('DOMContentLoaded', eventHandle, false);
+      })(document,window);
+    </script>
+  </body>
+</html>
