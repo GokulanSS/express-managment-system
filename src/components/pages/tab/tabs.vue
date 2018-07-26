@@ -77,6 +77,9 @@ export default {
             }else{
                 that.userPermission = temPer;
             }
+        },
+        testMethod(){
+            console.log('test github');
         }
     }
 }
