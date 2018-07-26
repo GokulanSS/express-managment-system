@@ -80,6 +80,9 @@ export default {
         },
         testMethod(){
             console.log('test github');
+        },
+        testBranch(){
+            console.log('test branch');
         }
     }
 }
